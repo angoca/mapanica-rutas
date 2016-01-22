@@ -6,3 +6,4 @@ install:
 script:
   - hostname
   - make serve
+
