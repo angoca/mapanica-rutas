@@ -1,0 +1,8 @@
+install:
+  - sudo apt-get install python-pip
+  - pip install pelican markdown
+  - pip install pelican
+
+script:
+  - hostname
+  - make serve
