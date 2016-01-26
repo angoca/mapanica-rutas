@@ -2,6 +2,7 @@ install:
   - sudo apt-get update -qq
   - sudo apt-get install python-pip curl -y
   - sudo pip install pelican markdown
+  - pip install Fabric
 
 script:
   - hostname
