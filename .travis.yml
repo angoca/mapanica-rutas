@@ -1,9 +1,10 @@
 install:
   - sudo apt-get update -qq
   - sudo apt-get install python-pip curl -y
+  - sudo -H pip install --upgrade pip
   - sudo -H pip install pelican markdown
   - sudo -H pip install Fabric
-  - sudo -H pip install --upgrade pip
+  - sudo -H pip install livereload
 
 script:
   - hostname
