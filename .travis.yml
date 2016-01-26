@@ -8,6 +8,6 @@ install:
 script:
   - hostname
   - python --version
-  - make html
-  - make serve
+  - fab build
+  - fab publish
 
